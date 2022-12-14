@@ -1,0 +1,158 @@
+.contentcontainerMainfro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.profilebutton{
+    border: none;
+    background-color: transparent;
+}
+.viratProfile{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+}
+.statusring{
+    height: 153px;
+    width: 153px;
+    border-color: #c23094;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 5px;
+}
+.statusring1{
+    height: 153px;
+    width: 153px;
+    border-color: #a3a199;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 5px;
+}
+
+.detailsContinaer{
+    display: flex;
+    flex-direction: column;
+
+}
+.blutickImage{
+    height: 30px;
+    border-radius: 100px;
+    align-self: center;
+}
+.profilebox{
+    height: 250px;
+    min-width: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.downarrow{
+    height: 10px;
+}
+.nameFollowingtitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.viratKohiliNmetitele{
+    font-size: 30px;
+    font-weight: 300;
+}
+.buttonfollow{
+    background-color: transparent;
+    margin-left: 10px;
+
+    height: 30px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px;
+    justify-content: center;
+}
+.buttonmessage{
+    background-color: transparent;
+    margin-left: 10px;
+    font-weight: 500;
+    height: 30px;
+    text-align: center;
+    width: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px;
+    justify-content: center;
+}
+.buttonperson{
+    background-color: transparent;
+    margin-left: 10px;
+    font-weight: 500;
+    height: 30px;
+    text-align: center;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border-width: 1px;
+    justify-content: center;
+}
+.threeDots{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.followingDetails{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-between;
+    margin-top: 0px;
+
+}
+.paraa{
+    margin: 0px;
+    padding: 0px;
+}
+.linkkkkk{
+    text-decoration: none;
+    color: #02447a;
+    font-weight: 600;
+}
+.followedby{
+    font-size: 12px;
+    color: #797e82;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+.thikFollowed{
+    color: #505559;
+    margin-left: 2px;
+}
+.namerofkohili{
+    font-size: 15px;
+    font-weight: 600;
+}
+.nameDetailsContaienr{
+    display: flex;
+    flex-direction: column;
+
+}
+.count{
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.scorefollwiongnamecount{
+    display: flex;
+    flex-direction: row;
+}

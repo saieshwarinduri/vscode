@@ -1,0 +1,14 @@
+.contentcontainerMain{
+    background-color: #f7f5f5;
+    background-size: cover;
+    width: 88%;
+    padding: 30px;
+    overflow: scroll;
+}
+.galarycontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}

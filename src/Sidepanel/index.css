@@ -1,0 +1,37 @@
+
+.sidepanel{
+    max-height: 100vh;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #cfcaca;
+
+}
+.profileIcon{
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 23px;
+}
+.homeIconContaienr{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nameofHeader{
+    margin: 10px;
+    align-self: center;
+}
+.pro{
+    margin-left: 12px;
+}

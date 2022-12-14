@@ -1,0 +1,17 @@
+.headername{
+    font-weight: 400;
+    margin: 10px;
+}
+.headernameconatiner{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textdect{
+    font-weight: 600;
+}
+.buttonn{
+    border: none;
+    background-color: transparent;
+}
