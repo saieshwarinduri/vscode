@@ -39,7 +39,11 @@
 .mainconainerBody{
   display: flex;
   flex-direction: row;
-
   max-height: 100vh;
  
+}
+@media screen and (max-width:750px){
+  .mainconainerBody{
+    flex-direction: column;
+  }
 }

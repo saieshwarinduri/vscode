@@ -15,3 +15,8 @@
     border: none;
     background-color: transparent;
 }
+@media screen and (max-width:768px){
+    .buttonn{
+        font-size: 10px;
+    }
+}

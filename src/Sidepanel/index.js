@@ -10,39 +10,39 @@ import { RxHamburgerMenu } from "react-icons/rx"
 
 const Sidepanel =()=>{
     return(
-        <div className="sidepanel">
-            <h1 className="heading">Instagram</h1>
+        <div className={`sidepanel col-2 col-md-3 `}>
+            <h1 className={`heading d-none d-md-flex`}>Instagram</h1>
             <div className='homeIconContaienr'>
-            <h1><AiOutlineHome /></h1>
-            <p className='nameofHeader'>Home</p>
+            <h1><AiOutlineHome className='iconstyle' /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>Home</p>
+            </div>
+            <div className={`homeIconContaienr d-none d-md-flex`}>
+            <h1><AiOutlineSearch className='iconstyle'  /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>Search</p>
             </div>
             <div className='homeIconContaienr'>
-            <h1><AiOutlineSearch /></h1>
-            <p className='nameofHeader'>Search</p>
+            <h1><MdOutlineExplore  className='iconstyle' /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>Explore</p>
             </div>
             <div className='homeIconContaienr'>
-            <h1><MdOutlineExplore /></h1>
-            <p className='nameofHeader'>Explore</p>
+            <h1><RiMessengerLine  className='iconstyle' /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>Messages</p>
             </div>
             <div className='homeIconContaienr'>
-            <h1><RiMessengerLine /></h1>
-            <p className='nameofHeader'>Messages</p>
+            <h1><AiOutlineHeart  className='iconstyle' /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>Notifications</p>
             </div>
             <div className='homeIconContaienr'>
-            <h1><AiOutlineHeart /></h1>
-            <p className='nameofHeader'>Notifications</p>
-            </div>
-            <div className='homeIconContaienr'>
-            <h1><AiOutlinePlusSquare /></h1>
-            <p className='nameofHeader'>Create</p>
+            <h1><AiOutlinePlusSquare className='iconstyle' /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>Create</p>
             </div>
             <div className='homeIconContaienr'>
             <img className='profileIcon' src="https://res.cloudinary.com/djomnr5y2/image/upload/v1671017202/virat-kohli-buys-7000-sq-ft-luxury-pad-worth-rs-34-crore-in-mumbai_xxjgfi.jpg" alt="d"/>
-            <p className='nameofHeader pro'>Profile</p>
+            <p className={`nameofHeader pro d-none d-md-flex`}>Profile</p>
             </div>
             <div className='homeIconContaienr'>
-            <h1><RxHamburgerMenu /></h1>
-            <p className='nameofHeader'>More</p>
+            <h1 className='d-none d-md-flex'><RxHamburgerMenu className='iconstyle' /></h1>
+            <p className={`nameofHeader d-none d-md-flex`}>More</p>
             </div>
             
         </div>

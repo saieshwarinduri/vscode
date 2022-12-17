@@ -4,6 +4,15 @@
     width: 88%;
     padding: 30px;
     overflow: scroll;
+    order: 2;
+}
+@media screen and (max-width:768px){
+    .contentcontainerMain{
+        padding-left: 0px;
+        padding-right: 0px;
+        order: 1;
+        width: 100%;
+    }
 }
 .galarycontainer{
     display: flex;
